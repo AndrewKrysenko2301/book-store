@@ -108,3 +108,48 @@ img {
     color: #fff;
     text-align: center;
 }
+.hero {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.hero-sidebar {
+    width: 250px;
+}
+.hero-sidebar ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+}
+.hero-sidebar li {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.hero-sidebar li:hover {
+    background-color: #f3f0ff;
+}
+.hero-sidebar a {
+    display: block;
+    padding: 15px;
+    color: #333;
+}
+.hero-banner {
+    flex: 1;
+     position: relative;
+}
+.hero-image img {
+    width: 700px;
+    height: auto;
+}
+.hero-btn {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+
+    padding: 12px 20px;
+    background-color: #4c32a2;
+    color: #fff;
+    border-radius: 8px;
+}
