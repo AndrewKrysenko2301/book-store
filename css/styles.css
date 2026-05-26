@@ -119,7 +119,6 @@ img {
 .hero-sidebar ul {
     display: flex;
     flex-direction: column;
-    height: 100%;
     gap: 10px;
 }
 .hero-sidebar li {
@@ -139,10 +138,6 @@ img {
     flex: 1;
      position: relative;
 }
-.hero-image img {
-    width: 700px;
-    height: auto;
-}
 .hero-btn {
     position: absolute;
     right: 40px;
@@ -152,4 +147,8 @@ img {
     background-color: #4c32a2;
     color: #fff;
     border-radius: 8px;
+}
+.books-grid {
+    display: flex;
+    gap: 20px;
 }
